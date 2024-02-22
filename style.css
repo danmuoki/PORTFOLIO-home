@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(228, 42, 228);
+}
+        
+        body, ul {
+          margin: 0;
+          padding: 0;
+        }
+    
+       
+        nav {
+          background-color: #30bf2e; 
+          color: rgb(53, 119, 151);
+          padding: 10px; 
+        }
+    
+       
+        nav a {
+          color: rgb(35, 33, 38); 
+          text-decoration: none; 
+          padding: 10px; 
+          margin-right: 10px; 
+          display: inline-block; 
+        }
+    
+        
+        nav a:hover {
+          background-color: #198750;
+        }
+.topnav {
+    background-color: #ab1c1c;
+    overflow: hidden;
+  }
+
+    /* CSS styling */
+    .image-container {
+        width: 300px; /* Example width */
+        height: auto; /* Let the height adjust according to aspect ratio */
+        border: 2px solid #333; /* Example border */
+        border-radius: 10px; /* Example border radius */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow */
+        overflow: hidden; /* Ensure the border and shadow are visible */
+    }
+
+    .image-container img {
+        width: 100%; /* Make the image fill its container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove extra space below image */
+        align-items: center;
+    }
+
+    .body {
+      background-image: url('background.jpg'); /* Path to your background image */
+       background-size: cover; /*Cover the entire viewport */ 
+       background-position: center; /*Center the background image */
+      background-repeat: no-repeat; /*Prevent background image from repeating */
+      background-color: #333; 
+  }
+   */
+/*   
+  .topnav a {
+
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(152, 19, 19);
+  }
+  
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  } */

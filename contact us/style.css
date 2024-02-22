@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(54, 87, 222);
+  }
+          
+          body, ul {
+            margin: 0;
+            padding: 0;
+          }
