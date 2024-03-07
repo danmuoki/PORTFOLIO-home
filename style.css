@@ -1,87 +1,122 @@
+/* General styles */
 body {
-  background-color: rgb(228, 42, 228);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
 }
-        
-        body, ul {
-          margin: 0;
-          padding: 0;
-        }
-    
-       
-        nav {
-          background-color: #30bf2e; 
-          color: rgb(53, 119, 151);
-          padding: 10px; 
-        }
-    
-       
-        nav a {
-          color: rgb(35, 33, 38); 
-          text-decoration: none; 
-          padding: 10px; 
-          margin-right: 10px; 
-          display: inline-block; 
-        }
-    
-        
-        nav a:hover {
-          background-color: #198750;
-        }
-.topnav {
-    background-color: #ab1c1c;
-    overflow: hidden;
-  }
 
-    /* CSS styling */
-    .image-container {
-        width: 300px; /* Example width */
-        height: auto; /* Let the height adjust according to aspect ratio */
-        border: 2px solid #333; /* Example border */
-        border-radius: 10px; /* Example border radius */
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow */
-        overflow: hidden; /* Ensure the border and shadow are visible */
-    }
+/* Header styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
 
-    .image-container img {
-        width: 100%; /* Make the image fill its container */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove extra space below image */
-        align-items: center;
-    }
+/* Navigation styles */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
 
-    .body {
-      background-image: url('background.jpg'); /* Path to your background image */
-       background-size: cover; /*Cover the entire viewport */ 
-       background-position: center; /*Center the background image */
-      background-repeat: no-repeat; /*Prevent background image from repeating */
-      background-color: #333; 
-  }
-   */
-/*   
-  .topnav a {
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-weight: bold;
+}
 
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: rgb(152, 19, 19);
-  }
-  
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  
-  .topnav .icon {
-    display: none;
-  } */
+/* Hamburger menu styles */
+#hamburger-nav {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hamburger-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+
+.menu-links {
+  display: none;
+  margin-top: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Section text styles */
+.section__text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section__text p,
+.section__text h1 {
+  margin: 5px 0;
+  color: #333;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer nav ul li:last-child {
+  margin-right: 0;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}

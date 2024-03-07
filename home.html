@@ -11,22 +11,60 @@
 <body>
     <h1>MY PORTFOLIO</h1>
 
-    <nav>
-        <a href="#">home</a>
-        <a href="about us/aboutus.html">about us</a>
-        <a href="contact us/contuctus.html">contuct us</a>
-        <a href="projects/project.html">projects</a>
-    </nav>
-    
-    <p>I am a web developer with front-end skills. <div class="image-container">
-        <img src="danimg.jpg" alt="">
-</div><br>I have skills for the three languages of creating a website. <br> The skils 
-include:</p>
-       <ul>
+<nav id="desktop-nav">
+    <a href="#">home</a>
+    <a href="about us/aboutus.html">about us</a>
+    <a href="contact us/contuctus.html">contact us</a>
+    <a href="projects/project.html">projects</a>
+</nav>
+
+<nav id="hamburger-nav">
+    <div class="logo">Daniel Muoki</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact us</a></li>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <img src="images/danimg.jpg" alt="Daniel's Profile Picture">
+</div>
+
+<div class="section__text">
+    <p class="section__text__p1">Hello I'm</p>
+    <h1 class="title">Daniel Muoki</h1>
+    <p class="section__text__p2">Full Stack Web Developer</p>
+</div>
+
+<div class="btn-container">
+    <p>Below are the languages I have experience with at front-end:</p>
+    <ul>
         <li>HTML</li>
         <li>JAVASCRIPT</li>
         <li>CSS</li>
-       </ul>
+    </ul>
+</div>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+
        <script src="script.js"></script>
 </body>
 </html>
